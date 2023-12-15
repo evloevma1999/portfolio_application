@@ -1,0 +1,39 @@
+In attachment you will find
+portfolio_db SQLITE dabase (download "DB Browser for SQlite" to manage database)
+portfolios.json, stocks.json, taxes.json sample json files
+
+You have to develop next components (using Spring libarary)
+
+1) Common library
+
+	- Library must include entity classes for Country, Province_State, Currency, Stock, Tax Portfolio and so on 
+	- Every entity has implememnt JSON serialize/deserialize interface
+	- Library must include DB provider class or classes These classes implements entity select/insert/update/delete operations
+
+2) Command line tool  to populate database
+
+	We will use this appliaction to populate different database tables. Sample json files for different tables provided
+	Application must has different command options It will load json file, deserialize set of enetities and insert/update database tables
+	
+3) Web service to access existing client portfolios
+
+	This web service will be used by UI It must implement next requests:
+	- POST request to create client account 
+	- POST request to authenticate client
+	- GET trequest to load client portfolios
+	- POST request to create new portfolio
+	- POST request to update new portfolio
+	- POST request to find porfolio optimal allocations
+	
+4) React UI to to access existing client portfolios
+	- Client login screen
+	- Client create account screen
+	- Client porfolio list screen
+	- Add new portfolio screen
+	- Update portfolio screen
+	
+
+Put all yoir code to git private repository Add me to this repository and send me url
+
+
+

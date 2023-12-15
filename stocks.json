@@ -1,0 +1,36 @@
+{
+	"stocks":[
+		{
+			"symbol" : "ABX.TO",
+			"name" : "Barrick Gold Corporation",
+			"country_code" : "CA",
+			"price": 21.7,
+			"expected_return": 0.3,
+			"expected_divident": 0.025
+		},
+		{
+			"symbol" : "K.TO",
+			"name" : "Kinross Gold Corporation",
+			"country_code" : "CA",
+			"price": 6.1,
+			"expected_return": 0.25,
+			"expected_divident": 0.025
+		},
+		{
+			"symbol" : "IBM",
+			"name" : "International Business Machines Corporation",
+			"country_code" : "CA",
+			"price": 132,
+			"expected_return": 0.05,
+			"expected_divident": null
+		},
+		{
+			"symbol" : "MSFT",
+			"name" : "Microsoft Corporation",
+			"country_code" : "CA",
+			"price": 337,
+			"expected_return": 0.03,
+			"expected_divident": null
+		}
+	]
+}

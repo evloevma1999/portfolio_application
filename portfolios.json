@@ -1,0 +1,46 @@
+{
+	"portfolios":[
+		{
+			"name": "IT portfolio",
+			"description": "IT investment portfolio",
+			"country_code" : "CA",
+			"province_state_code": "ON",
+			"time_horizon": 2,
+			"balance": 5000000.0,
+			"client_id": null,
+			"stocks": [
+				{
+					"symbol": "IBM",
+					"min_allocation": 10000.0,
+					"max_allocation": 100000.0
+				},
+				{
+					"symbol": "MSFT",
+					"min_allocation": 10000.0,
+					"max_allocation": 100000.0
+				}
+			]
+		},
+		{
+			"name": "Gold portfolio",
+			"description": "Gold investment portfolio",
+			"country_code" : "CA",
+			"province_state_code": "ON",
+			"time_horizon": 1,
+			"balance": 2000000.0,
+			"client_id": null,
+			"stocks": [
+				{
+					"symbol": "ABX.TO",
+					"min_allocation": 10000.0,
+					"max_allocation": 100000.0
+				},
+				{
+					"symbol": "K.TO",
+					"min_allocation": 10000.0,
+					"max_allocation": 100000.0
+				}
+			]
+		},
+	]
+}

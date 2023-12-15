@@ -1,0 +1,70 @@
+{
+	"taxes":[
+		{
+			"name" : "Canada Federal tax",
+			"country_code" : "CA",
+			"tax_type_code" : "Federal",
+			"province_state_code": null,
+			"tax_brakets": [
+				{
+				"low_braket": 14000.0,
+				"up_braket": 53359.0,
+				"rate": 0.15
+				},
+				{
+					"low_braket": 53359.0,
+					"up_braket": 106717.0,
+					"rate": 0.205
+				},
+				{
+					"low_braket": 106717.0,
+					"up_braket": 165430.0,
+					"rate": 0.26
+				},
+				{
+					"low_braket": 165430.0,
+					"up_braket": 235675.0,
+					"rate": 0.29
+				},
+				{
+					"low_braket": 235675.0,
+					"up_braket": -1.0,
+					"rate": 0.33
+				}
+			]
+		},
+		{
+			"name" : "Ontario tax",
+			"country_code" : "CA",
+			"tax_type_code" : "Province_State",
+			"province_state_code": "ON",
+			"tax_brakets": [
+				{
+					"low_braket": 14000.0,
+					"up_braket": 49231.0,
+					"rate": 0.0505
+				},
+				{
+					"low_braket": 49231.0,
+					"up_braket": 98463.0,
+					"rate": 0.0915
+				},
+				{
+					"low_braket": 98463.0,
+					"up_braket": 150000.0,
+					"rate": 0.1116
+				},
+				{
+					"low_braket": 150000.0,
+					"up_braket": 220000.0,
+					"rate": 0.1216
+				},
+				{
+					"low_braket": 220000.0,
+					"up_braket": -1.0,
+					"rate": 0.1316
+				}
+			]
+		}
+	]
+}
